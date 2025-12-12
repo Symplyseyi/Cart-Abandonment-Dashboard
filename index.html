@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Abandonment Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="main-section">
+      <!-- Top section -->
+      <section class="top-section">
+        <div class="first-section">
+          <div class="logo-container">
+            <span class="material-symbols-outlined"> shopping_cart </span>
+          </div>
+
+          <div class="heading-and-text-container">
+            <h1>Cart Abandonment Overview</h1>
+            <p>Data for the last 30 days (Static Mockup)</p>
+          </div>
+        </div>
+
+        <div class="time-section">
+          <div class="icon-and-time-period">
+            <span class="material-symbols-outlined"> calendar_today </span>
+            <p>Time Period:</p>
+          </div>
+
+          <div class="time-period-subs">
+            <button>Last 7 days</button>
+            <button>Last 30 days</button>
+            <button>Last 90 days</button>
+            <button>Custom Range</button>
+          </div>
+        </div>
+
+        <div class="first-cards-section">
+          <div class="abandonment-container">
+            <div class="left-side-abandonment">
+              <p>ADANDONMENT RATE</p>
+              <h1>68.5%</h1>
+              <p>- 12% vs Last Period</p>
+            </div>
+
+            <div class="right-red-abandonment">
+              <span class="material-symbols-outlined"> trending_down </span>
+            </div>
+          </div>
+
+          <div class="abandonment-container">
+            <div class="left-side-abandonment down-percentage">
+              <p>LOST RATE</p>
+              <h1>$45,210</h1>
+              <p>+4.5% vs Last Period</p>
+            </div>
+
+            <div class="right-red-abandonment">
+              <span class="material-symbols-outlined"> attach_money </span>
+            </div>
+          </div>
+
+          <div class="abandonment-container">
+            <div class="left-side-abandonment">
+              <p>RECOVERY RATE</p>
+              <h1>12.3%</h1>
+              <p>+0.8% vs Last Period</p>
+            </div>
+
+            <div class="right-green-abandonment">
+              <span class="material-symbols-outlined">
+                settings_backup_restore
+              </span>
+            </div>
+          </div>
+
+          <div class="abandonment-container">
+            <div class="left-side-abandonment">
+              <p>RECOVERED REVENUE</p>
+              <h1>$5,560</h1>
+              <p>+7.1% vs Last Period</p>
+            </div>
+
+            <div class="right-green-abandonment">
+              <span class="material-symbols-outlined"> attach_money </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mid section -->
+      <section class="mid-section">
+        <div class="funnel-analysis">
+          <div class="funnel-analysis-texts">
+            <p>Checkout Funnel Analysis</p>
+            <p>Conversion rates at each stage of checkout</p>
+          </div>
+
+          <div class="funnel-analysis-charts">
+            <div class="cart-view-chart">
+              <p>1. Cart View</p>
+              <p>(100%)</p>
+            </div>
+
+            <div class="danger-chart">
+              <div class="shipping-chart">
+                <p>2. Shipping</p>
+                <p>(92% - 8% Drop)</p>
+              </div>
+
+              <div class="chart-text">
+                <p>-8%</p>
+              </div>
+            </div>
+
+            <div class="danger-chart">
+              <div class="payment-chart">
+                <p>3. Payment</p>
+                <p>(75% - 17% Drop)</p>
+              </div>
+
+              <div class="paymentt-chart">
+                <p>3. Payment</p>
+                <p>(75%)</p>
+              </div>
+
+              <div class="chart-text">
+                <p>-25%</p>
+              </div>
+
+              <div class="chartt-text">
+                <p>-25%</p>
+              </div>
+            </div>
+
+            <div class="purchase-chart">
+              <p>4. Purchase</p>
+              <p>(65%)</p>
+            </div>
+          </div>
+
+          <div class="insight-container">
+            <span class="material-symbols-outlined"> emoji_objects </span>
+            <p>Insight:</p>
+            <p>
+              Highest drop-off is at the Payment step (likely shipping costs or
+              trust issues).
+            </p>
+          </div>
+        </div>
+
+        <div class="abandoned-products">
+          <div class="abandoned-products-texts">
+            <p>Top Abandoned Products</p>
+            <p>Products with highest revenue loss</p>
+          </div>
+
+          <div class="abandoned-products-ratio">
+            <div class="product-ratio-container">
+              <div class="product-ratio-texts">
+                <div class="left-texts-container">
+                  <span class="material-symbols-outlined"> trending_down </span>
+                  <p>Wireless Headphones</p>
+                </div>
+
+                <div class="right-texts-container">
+                  <p>$1,200 Lost</p>
+                  <p>24 abandoned</p>
+                </div>
+              </div>
+
+              <div class="line-container">
+                <div class="headphones-line"></div>
+              </div>
+            </div>
+
+            <div class="product-ratio-container">
+              <div class="product-ratio-texts">
+                <div class="left-texts-container">
+                  <span class="material-symbols-outlined"> trending_down </span>
+                  <p>4K Monitor</p>
+                </div>
+
+                <div class="right-texts-container">
+                  <p>$950 Lost</p>
+                  <p>19 abandoned</p>
+                </div>
+              </div>
+
+              <div class="line-container">
+                <div class="monitor-line"></div>
+              </div>
+            </div>
+
+            <div class="product-ratio-container">
+              <div class="product-ratio-texts">
+                <div class="left-texts-container">
+                  <span class="material-symbols-outlined"> trending_down </span>
+                  <p>Mechanical Keyboard</p>
+                </div>
+
+                <div class="right-texts-container">
+                  <p>$720 Lost</p>
+                  <p>18 abandoned</p>
+                </div>
+              </div>
+
+              <div class="line-container">
+                <div class="keyboard-line"></div>
+              </div>
+            </div>
+
+            <div class="product-ratio-container">
+              <div class="product-ratio-texts">
+                <div class="left-texts-container">
+                  <span class="material-symbols-outlined"> trending_down </span>
+                  <p>Gaming Mouse</p>
+                </div>
+
+                <div class="right-texts-container">
+                  <p>$580 Lost</p>
+                  <p>29 abandoned</p>
+                </div>
+              </div>
+
+              <div class="line-container">
+                <div class="mouse-line"></div>
+              </div>
+            </div>
+
+            <div class="product-ratio-container">
+              <div class="product-ratio-texts">
+                <div class="left-texts-container">
+                  <span class="material-symbols-outlined"> trending_down </span>
+                  <p>USB-C Hub</p>
+                </div>
+
+                <div class="right-texts-container">
+                  <p>$450 Lost</p>
+                  <p>15 abandoned</p>
+                </div>
+              </div>
+
+              <div class="line-container">
+                <div class="usb-line"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Device abandonment section -->
+      <section class="abandonment-by-device-section">
+        <div class="abandonment-by-device-texts">
+          <p>Abandonment by Device</p>
+          <p>Abandonment rates across different devices</p>
+        </div>
+
+        <div class="abandonment-ratio-lists">
+          <div class="abandonment-ratio-list">
+            <div class="ratio-texts">
+              <div class="left-ratio-texts">
+                <span class="material-symbols-outlined blue"> monitor </span>
+                <p>Desktop</p>
+              </div>
+
+              <div class="right-ratio-texts">
+                <p>55</p>
+                <p>%</p>
+              </div>
+            </div>
+
+            <div class="ratio-line-container">
+              <div class="desktop-line"></div>
+            </div>
+          </div>
+
+          <div class="abandonment-ratio-list reedd">
+            <div class="ratio-texts redd">
+              <div class="left-ratio-texts">
+                <span class="material-symbols-outlined red"> mobile </span>
+                <p>Mobile</p>
+              </div>
+
+              <div class="right-ratio-texts">
+                <p>75</p>
+                <p>%</p>
+              </div>
+            </div>
+
+            <div class="ratio-line-container">
+              <div class="mobile-line"></div>
+            </div>
+          </div>
+
+          <div class="abandonment-ratio-list">
+            <div class="ratio-texts">
+              <div class="left-ratio-texts">
+                <span class="material-symbols-outlined orange"> tablet </span>
+                <p>Tablet</p>
+              </div>
+
+              <div class="right-ratio-texts">
+                <p>60</p>
+                <p>%</p>
+              </div>
+            </div>
+
+            <div class="ratio-line-container">
+              <div class="tablet-line"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="last-texts-container">
+          <span class="material-symbols-outlined"> warning </span>
+          <p>Action Required:</p>
+          <p>Mobile device experience needs urgent optimization.</p>
+        </div>
+      </section>
+
+      <!-- Weekly overview section -->
+      <section class="weekly-overview-section">
+        <div class="weekly-heading-and-subheading">
+          <p>Weekly Overview</p>
+          <p>Abandonment statistics for the last 7 days</p>
+        </div>
+
+        <div class="overview-cards-container">
+          <div class="overview-card">
+            <div class="icon-and-text first">
+              <span class="material-symbols-outlined"> shopping_cart </span>
+              <p>Total Abandoned</p>
+            </div>
+            <p>342</p>
+            <p>carts this week</p>
+          </div>
+
+          <div class="overview-card">
+            <div class="icon-and-text second">
+              <span class="material-symbols-outlined"> cached </span>
+              <p>Recovered</p>
+            </div>
+            <p>115</p>
+            <p>33.6% recovery rate</p>
+          </div>
+
+          <div class="overview-card">
+            <div class="icon-and-text third">
+              <span class="material-symbols-outlined"> trending_down </span>
+              <p>Daily Average</p>
+            </div>
+            <p>49</p>
+            <p>abandoned per day</p>
+          </div>
+
+          <div class="overview-card">
+            <div class="icon-and-text last">
+              <span class="material-symbols-outlined"> calendar_today </span>
+              <p>Peak Day</p>
+            </div>
+            <p>Thu</p>
+            <p>61 abandonments</p>
+          </div>
+        </div>
+
+        <div class="daily-breakdown-container">
+          <div class="daily-breakdown-text">
+            <p>Daily Breakdown</p>
+          </div>
+
+          <div class="daily-breakdown-charts">
+            <div class="chart-and-texts">
+              <div class="day">
+                <p>Mon</p>
+              </div>
+
+              <div class="breakdown-line">
+                <div class="mon-line"></div>
+              </div>
+
+              <div class="right-texts">
+                <p>45 left</p>
+
+                <div class="icon-and-percentage down">
+                  <span class="material-symbols-outlined"> trending_down </span>
+                  <p>27%</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="chart-and-texts">
+              <div class="day">
+                <p>Tue</p>
+              </div>
+
+              <div class="breakdown-line">
+                <div class="tue-line"></div>
+              </div>
+
+              <div class="right-texts">
+                <p>52 left</p>
+
+                <div class="icon-and-percentage down">
+                  <span class="material-symbols-outlined"> trending_down </span>
+                  <p>29%</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="chart-and-texts">
+              <div class="day">
+                <p>Wed</p>
+              </div>
+
+              <div class="breakdown-line">
+                <div class="wed-line"></div>
+              </div>
+
+              <div class="right-texts">
+                <p>38 left</p>
+
+                <div class="icon-and-percentage">
+                  <span class="material-symbols-outlined"> trending_up </span>
+                  <p>47%</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="chart-and-texts">
+              <div class="day">
+                <p>Thu</p>
+              </div>
+
+              <div class="breakdown-line">
+                <div class="thu-line"></div>
+              </div>
+
+              <div class="right-texts">
+                <p>61 left</p>
+
+                <div class="icon-and-percentage down">
+                  <span class="material-symbols-outlined"> trending_down </span>
+                  <p>23%</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="chart-and-texts">
+              <div class="day">
+                <p>Fri</p>
+              </div>
+
+              <div class="breakdown-line">
+                <div class="fri-line"></div>
+              </div>
+
+              <div class="right-texts">
+                <p>48 left</p>
+
+                <div class="icon-and-percentage">
+                  <span class="material-symbols-outlined"> trending_up </span>
+                  <p>42%</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="chart-and-texts">
+              <div class="day">
+                <p>Sat</p>
+              </div>
+
+              <div class="breakdown-line">
+                <div class="sat-line"></div>
+              </div>
+
+              <div class="right-texts">
+                <p>55 left</p>
+
+                <div class="icon-and-percentage">
+                  <span class="material-symbols-outlined"> trending_up </span>
+                  <p>31%</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="chart-and-texts">
+              <div class="day">
+                <p>Sun</p>
+              </div>
+
+              <div class="breakdown-line">
+                <div class="sun-line"></div>
+              </div>
+
+              <div class="right-texts">
+                <p>43 left</p>
+
+                <div class="icon-and-percentage">
+                  <span class="material-symbols-outlined"> trending_up </span>
+                  <p>44%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Abandonment of cart section -->
+      <section class="abandoned-cart-section">
+        <div class="abandoned-cart-texts">
+          <p>Recent Abandoned Carts</p>
+          <p>Track and recover abandoned shopping carts</p>
+        </div>
+
+        <div class="abandoned-carts">
+          <div class="abandoned-cartt">
+            <div class="left-lists">
+              <p>Customer</p>
+              <p>Email</p>
+            </div>
+
+            <div class="item-list">
+              <p>Items</p>
+            </div>
+
+            <div class="mid-lists">
+              <p>Cart Value</p>
+              <p>Time</p>
+            </div>
+
+            <div class="right-list">
+              <p>Status</p>
+            </div>
+          </div>
+
+          <div class="abandoned-cart">
+            <div class="left-lists">
+              <p>Sarah Johnson</p>
+              <p>sarah.j@email.com</p>
+            </div>
+
+            <div class="item-list">
+              <p>3</p>
+            </div>
+
+            <div class="mid-lists">
+              <p>$247.50</p>
+              <p>about 2 hours ago</p>
+            </div>
+
+            <div class="right-list abandoned-list">
+              <p>abandoned</p>
+            </div>
+          </div>
+
+          <div class="abandoned-cart">
+            <div class="left-lists">
+              <p>Michael Chen</p>
+              <p>m.chen@email.com</p>
+            </div>
+
+            <div class="item-list">
+              <p>5</p>
+            </div>
+
+            <div class="mid-lists">
+              <p>$389.99</p>
+              <p>about 4 hours ago</p>
+            </div>
+
+            <div class="right-list pending-list">
+              <p>pending</p>
+            </div>
+          </div>
+
+          <div class="abandoned-cart">
+            <div class="left-lists">
+              <p>Emily Davis</p>
+              <p>emily.d@email.com</p>
+            </div>
+
+            <div class="item-list">
+              <p>3</p>
+            </div>
+
+            <div class="mid-lists">
+              <p>$156.00</p>
+              <p>about 6 hours ago</p>
+            </div>
+
+            <div class="right-list recovered">
+              <p>recovered</p>
+            </div>
+          </div>
+
+          <div class="abandoned-cart">
+            <div class="left-lists">
+              <p>James Wilson</p>
+              <p>j.wilson@email.com</p>
+            </div>
+
+            <div class="item-list">
+              <p>4</p>
+            </div>
+
+            <div class="mid-lists">
+              <p>$512.75</p>
+              <p>about 8 hours ago</p>
+            </div>
+
+            <div class="right-list abandoned-list">
+              <p>abandoned</p>
+            </div>
+          </div>
+
+          <div class="abandoned-cart">
+            <div class="left-lists">
+              <p>Lisa Anderson</p>
+              <p>lisa.a@email.com</p>
+            </div>
+
+            <div class="item-list">
+              <p>1</p>
+            </div>
+
+            <div class="mid-lists">
+              <p>$89.99</p>
+              <p>about 12 hours ago</p>
+            </div>
+
+            <div class="right-list pending-list">
+              <p>pending</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="abandoned-carrts">
+          <div class="abandoned-carrt">
+            <div class="customer">
+              <p>Customer:</p>
+              <p class="name">Sarah Johnson</p>
+            </div>
+
+            <div class="email">
+              <p>Email:</p>
+              <p class="time-email">sarah.j@email.com</p>
+            </div>
+
+            <div class="itemss">
+              <p>Items:</p>
+              <p class="itemm">3</p>
+            </div>
+
+            <div class="cart-value">
+              <p>Cart Value:</p>
+              <p class="value">$247.50</p>
+            </div>
+
+            <div class="time">
+              <p>Time:</p>
+              <p class="time-email">about 2 hours ago</p>
+            </div>
+
+            <div class="status">
+              <p>Status:</p>
+              <p class="abandonedd">abandoned</p>
+            </div>
+          </div>
+
+          <div class="abandoned-carrt">
+            <div class="customer">
+              <p>Customer:</p>
+              <p class="name">Michael Chen</p>
+            </div>
+
+            <div class="email">
+              <p>Email:</p>
+              <p class="time-email">m.chen@email.com</p>
+            </div>
+
+            <div class="itemss">
+              <p>Items:</p>
+              <p class="itemm">3</p>
+            </div>
+
+            <div class="cart-value">
+              <p>Cart Value:</p>
+              <p class="value">$389.99</p>
+            </div>
+
+            <div class="time">
+              <p>Time:</p>
+              <p class="time-email">about 4 hours ago</p>
+            </div>
+
+            <div class="status">
+              <p>Status:</p>
+              <p class="pendingg">pending</p>
+            </div>
+          </div>
+
+          <div class="abandoned-carrt">
+            <div class="customer">
+              <p>Customer:</p>
+              <p class="name">Emily Davis</p>
+            </div>
+
+            <div class="email">
+              <p>Email:</p>
+              <p class="time-email">emily.d@email.com</p>
+            </div>
+
+            <div class="itemss">
+              <p>Items:</p>
+              <p class="itemm">3</p>
+            </div>
+
+            <div class="cart-value">
+              <p>Cart Value:</p>
+              <p class="value">$156.00</p>
+            </div>
+
+            <div class="time">
+              <p>Time:</p>
+              <p class="time-email">about 6 hours ago</p>
+            </div>
+
+            <div class="status">
+              <p>Status:</p>
+              <p class="recoveredd">recovered</p>
+            </div>
+          </div>
+
+          <div class="abandoned-carrt">
+            <div class="customer">
+              <p>Customer:</p>
+              <p class="name">James Wilson</p>
+            </div>
+
+            <div class="email">
+              <p>Email:</p>
+              <p class="time-email">j.wilson@email.com</p>
+            </div>
+
+            <div class="itemss">
+              <p>Items:</p>
+              <p class="itemm">4</p>
+            </div>
+
+            <div class="cart-value">
+              <p>Cart Value:</p>
+              <p class="value">$512.75</p>
+            </div>
+
+            <div class="time">
+              <p>Time:</p>
+              <p class="time-email">about 8 hours ago</p>
+            </div>
+
+            <div class="status">
+              <p>Status:</p>
+              <p class="abandonedd">abandoned</p>
+            </div>
+          </div>
+
+          <div class="abandoned-carrt">
+            <div class="customer">
+              <p>Customer:</p>
+              <p class="name">Lisa Anderson</p>
+            </div>
+
+            <div class="email">
+              <p>Email:</p>
+              <p class="time-email">lisa.a@email.com</p>
+            </div>
+
+            <div class="itemss">
+              <p>Items:</p>
+              <p class="itemm">1</p>
+            </div>
+
+            <div class="cart-value">
+              <p>Cart Value:</p>
+              <p class="value">$89.99</p>
+            </div>
+
+            <div class="time">
+              <p>Time:</p>
+              <p class="time-email">about 12 hours ago</p>
+            </div>
+
+            <div class="status">
+              <p>Status:</p>
+              <p class="pendingg">pending</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
