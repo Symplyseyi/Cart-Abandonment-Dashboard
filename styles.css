@@ -1106,7 +1106,7 @@
 }
 
 .breakdown-line {
-  width: 82%;
+  width: 80%;
   height: 8px;
   background-color: var(--secondary);
   border-radius: var(--space4);
@@ -1798,9 +1798,9 @@
     border-bottom-right-radius: var(--space3);
   }
 
-   .abandoned-carrt:last-of-type{
-     border-bottom: 0;
-   }
+  .abandoned-carrt:last-of-type {
+    border-bottom: 0;
+  }
 
   .customer,
   .email,
