@@ -1505,7 +1505,7 @@
     align-items: start;
     row-gap: var(--space4);
     background-color: var(--background);
-    padding: var(--space2);
+    padding: var(--space4) var(--space2);
   }
 
   .top-section {
