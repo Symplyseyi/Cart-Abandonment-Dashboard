@@ -1798,6 +1798,10 @@
     border-bottom-right-radius: var(--space3);
   }
 
+   .abandoned-carrt:last-of-type{
+     border-bottom: 0;
+   }
+
   .customer,
   .email,
   .itemss,
