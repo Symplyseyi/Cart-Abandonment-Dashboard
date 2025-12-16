@@ -382,7 +382,8 @@
 .cart-view-chart:hover,
 .shipping-chart:hover,
 .payment-chart:hover,
-.purchase-chart:hover {
+.purchase-chart:hover,
+.paymentt-chart:hover {
   transform: translateY(-4px);
   box-shadow: var(--offsetX) var(--offsetY) var(--dowBlur) var(--dowcolor);
 }
